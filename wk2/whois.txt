@@ -1,0 +1,119 @@
+1. facebook
+
+Domain Name: FACEBOOK.COM
+   Registry Domain ID: 2320948_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.registrarsafe.com
+   Registrar URL: http://www.registrarsafe.com
+   Updated Date: 2025-04-23T19:08:37Z
+   Creation Date: 1997-03-29T05:00:00Z
+   Registry Expiry Date: 2034-03-30T04:00:00Z
+   Registrar: RegistrarSafe, LLC
+   Registrar IANA ID: 3237
+   Registrar Abuse Contact Email: abusecomplaints@registrarsafe.com
+   Registrar Abuse Contact Phone: +1-650-308-7004
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: A.NS.FACEBOOK.COM
+   Name Server: B.NS.FACEBOOK.COM
+   Name Server: C.NS.FACEBOOK.COM
+   Name Server: D.NS.FACEBOOK.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+
+
+2. whatsapp
+Domain Name: WHATSAPP.COM
+   Registry Domain ID: 1517823758_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.registrarsafe.com
+   Registrar URL: http://www.registrarsafe.com
+   Updated Date: 2025-09-24T19:10:25Z
+   Creation Date: 2008-09-04T12:39:12Z
+   Registry Expiry Date: 2034-09-04T12:39:12Z
+   Registrar: RegistrarSafe, LLC
+   Registrar IANA ID: 3237
+   Registrar Abuse Contact Email: abusecomplaints@registrarsafe.com
+   Registrar Abuse Contact Phone: +1-650-308-7004
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: A.NS.WHATSAPP.NET
+   Name Server: B.NS.WHATSAPP.NET
+   Name Server: C.NS.WHATSAPP.NET
+   Name Server: D.NS.WHATSAPP.NET
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+
+
+3. github
+Domain Name: GITHUB.COM
+   Registry Domain ID: 1264983250_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2024-09-07T09:16:32Z
+   Creation Date: 2007-10-09T18:20:50Z
+   Registry Expiry Date: 2026-10-09T18:20:50Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2086851750
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Name Server: DNS1.P08.NSONE.NET
+   Name Server: DNS2.P08.NSONE.NET
+   Name Server: DNS3.P08.NSONE.NET
+   Name Server: DNS4.P08.NSONE.NET
+   Name Server: NS-1283.AWSDNS-32.ORG
+   Name Server: NS-1707.AWSDNS-21.CO.UK
+   Name Server: NS-421.AWSDNS-52.COM
+   Name Server: NS-520.AWSDNS-01.NET
+
+4. anthropic
+Domain Name: ANTHROPIC.COM
+   Registry Domain ID: 78126225_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2023-10-09T16:06:41Z
+   Creation Date: 2001-10-02T18:10:32Z
+   Registry Expiry Date: 2033-10-02T18:10:32Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2086851750
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Name Server: ISLA.NS.CLOUDFLARE.COM
+   Name Server: RANDY.NS.CLOUDFLARE.COM
+
+5. openai
+Domain Name: OPENAI.COM
+   Registry Domain ID: 764064142_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2024-10-17T22:20:04Z
+   Creation Date: 2007-01-19T19:28:24Z
+   Registry Expiry Date: 2029-01-19T19:28:24Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2086851750
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: NS1-02.AZURE-DNS.COM
+   Name Server: NS2-02.AZURE-DNS.NET
+   Name Server: NS3-02.AZURE-DNS.ORG
+   Name Server: NS4-02.AZURE-DNS.INFO
+
+
