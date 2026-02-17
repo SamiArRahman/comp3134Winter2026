@@ -1,0 +1,260 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:07:53.351616 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 1634681185:1634681293, ack 3950308036, win 544, length 108
+22:07:53.351738 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 108:224, ack 1, win 544, length 116
+22:07:53.356144 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 224, win 3568, length 0
+22:07:53.370133 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 224, win 3568, length 36
+22:07:53.370389 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 224:260, ack 37, win 544, length 36
+22:07:53.399971 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 260, win 3568, length 36
+22:07:53.400190 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 260:296, ack 73, win 544, length 36
+22:07:53.433125 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 73:109, ack 296, win 3568, length 36
+22:07:53.433328 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 296:332, ack 109, win 544, length 36
+22:07:53.453097 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [S], seq 4089811926, win 64240, options [mss 1460,sackOK,TS val 2595906057 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+22:07:53.454762 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982: Flags [S.], seq 657553568, ack 4089811927, win 65160, options [mss 1460,sackOK,TS val 1152956410 ecr 2595906057,nop,wscale 10], length 0
+22:07:53.454791 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 2595906059 ecr 1152956410], length 0
+22:07:53.454856 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [P.], seq 1:48, ack 1, win 502, options [nop,nop,TS val 2595906059 ecr 1152956410], length 47 14563+ PTR? 110.126.68.199.in-addr.arpa. (45)
+22:07:53.455025 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 332:536, ack 109, win 544, length 204
+22:07:53.455214 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 536:1732, ack 109, win 544, length 1196
+22:07:53.455988 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982: Flags [.], ack 48, win 64, options [nop,nop,TS val 1152956411 ecr 2595906059], length 0
+22:07:53.455988 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982: Flags [P.], seq 1:90, ack 48, win 64, options [nop,nop,TS val 1152956411 ecr 2595906059], length 89 14563 1/0/0 PTR 199-68-126-110.beanfield.net. (87)
+22:07:53.456025 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [.], ack 90, win 502, options [nop,nop,TS val 2595906060 ecr 1152956411], length 0
+22:07:53.459118 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 536, win 3567, length 0
+22:07:53.459197 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 109:145, ack 536, win 3567, length 36
+22:07:53.459197 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1732, win 3570, length 0
+22:07:53.459322 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 1732:1768, ack 145, win 544, length 36
+22:07:53.461995 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1768, win 3570, length 0
+22:07:53.480109 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 145:181, ack 1768, win 3570, length 36
+22:07:53.480331 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 1768:1804, ack 181, win 544, length 36
+22:07:53.511141 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 181:217, ack 1804, win 3569, length 36
+22:07:53.511323 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 1804:1840, ack 217, win 544, length 36
+22:07:53.542140 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 217:253, ack 1840, win 3569, length 36
+22:07:53.542319 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 1840:1876, ack 253, win 544, length 36
+22:07:53.557039 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [P.], seq 48:92, ack 90, win 502, options [nop,nop,TS val 2595906161 ecr 1152956411], length 44 8690+ PTR? 3.67.207.67.in-addr.arpa. (42)
+22:07:53.558113 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982: Flags [P.], seq 90:201, ack 92, win 64, options [nop,nop,TS val 1152956513 ecr 2595906161], length 111 8690 NXDomain 0/1/0 (109)
+22:07:53.558145 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [.], ack 201, win 502, options [nop,nop,TS val 2595906162 ecr 1152956513], length 0
+22:07:53.572486 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 253:289, ack 1876, win 3569, length 36
+22:07:53.572688 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 1876:1912, ack 289, win 544, length 36
+22:07:53.577705 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 1912:5236, ack 289, win 544, length 3324
+22:07:53.580659 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3372, win 3570, length 0
+22:07:53.580659 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5236, win 3570, length 0
+22:07:53.605186 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 289:325, ack 5236, win 3570, length 36
+22:07:53.605363 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 5236:5272, ack 325, win 544, length 36
+22:07:53.636160 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 325:361, ack 5272, win 3570, length 36
+22:07:53.636347 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 5272:5308, ack 361, win 544, length 36
+22:07:53.660485 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 5308:5568, ack 361, win 544, length 260
+22:07:53.660772 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 5568:6996, ack 361, win 544, length 1428
+22:07:53.660912 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 6996:7336, ack 361, win 544, length 340
+22:07:53.665107 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5568, win 3568, length 0
+22:07:53.665208 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 361:397, ack 5568, win 3568, length 36
+22:07:53.665208 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6996, win 3570, length 0
+22:07:53.665208 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7336, win 3568, length 0
+22:07:53.665376 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 7336:7372, ack 397, win 544, length 36
+22:07:53.682137 IP 45.142.193.8.53122 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.1327: Flags [S], seq 796409589, win 1024, length 0
+22:07:53.696914 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 397:433, ack 7372, win 3568, length 36
+22:07:53.697080 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 7372:7408, ack 433, win 544, length 36
+22:07:53.727675 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 433:469, ack 7408, win 3568, length 36
+22:07:53.727858 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 7408:7444, ack 469, win 544, length 36
+22:07:53.758614 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 469:505, ack 7444, win 3568, length 36
+22:07:53.758825 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 7444:7480, ack 505, win 544, length 36
+22:07:53.765315 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [P.], seq 92:137, ack 201, win 502, options [nop,nop,TS val 2595906370 ecr 1152956513], length 45 21524+ PTR? 8.193.142.45.in-addr.arpa. (43)
+22:07:53.765442 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 7480:8668, ack 505, win 544, length 1188
+22:07:53.768214 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 8668, win 3570, length 0
+22:07:53.771525 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982: Flags [P.], seq 201:300, ack 137, win 64, options [nop,nop,TS val 1152956727 ecr 2595906370], length 99 21524 NXDomain 0/1/0 (97)
+22:07:53.771602 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [.], ack 300, win 502, options [nop,nop,TS val 2595906376 ecr 1152956727], length 0
+22:07:53.773477 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 8668:8832, ack 505, win 544, length 164
+22:07:53.773857 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 8832:9764, ack 505, win 544, length 932
+22:07:53.776680 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 9764, win 3565, length 0
+22:07:53.791136 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 505:541, ack 9764, win 3565, length 36
+22:07:53.791339 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 9764:9800, ack 541, win 544, length 36
+22:07:53.821455 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 541:577, ack 9800, win 3565, length 36
+22:07:53.821678 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 9800:9836, ack 577, win 544, length 36
+22:07:53.853698 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 577:613, ack 9836, win 3565, length 36
+22:07:53.853884 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 9836:9872, ack 613, win 544, length 36
+22:07:53.868419 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 9872:10140, ack 613, win 544, length 268
+22:07:53.868721 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 10140:11872, ack 613, win 544, length 1732
+22:07:53.868810 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 11872:12212, ack 613, win 544, length 340
+22:07:53.871129 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 10140, win 3570, length 0
+22:07:53.871638 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 11872, win 3570, length 0
+22:07:53.886141 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 613:649, ack 12212, win 3568, length 36
+22:07:53.886344 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 12212:12248, ack 649, win 544, length 36
+22:07:53.917140 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 649:685, ack 12248, win 3568, length 36
+22:07:53.917387 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 12248:12284, ack 685, win 544, length 36
+22:07:53.947589 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 685:721, ack 12284, win 3568, length 36
+22:07:53.947774 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 12284:12320, ack 721, win 544, length 36
+22:07:53.972521 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 12320:13988, ack 721, win 544, length 1668
+22:07:53.977138 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13780, win 3570, length 0
+22:07:53.977192 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 721:757, ack 13988, win 3569, length 36
+22:07:53.977320 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 13988:14024, ack 757, win 544, length 36
+22:07:54.000165 IP 45-33-110-79.ip.linodeusercontent.com.56427 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.2376: Flags [S], seq 2840017267, win 65535, options [mss 1460], length 0
+22:07:54.011121 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 757:793, ack 14024, win 3569, length 36
+22:07:54.011313 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 14024:14060, ack 793, win 544, length 36
+22:07:54.043135 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 793:829, ack 14060, win 3569, length 36
+22:07:54.043313 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 14060:14096, ack 829, win 544, length 36
+22:07:54.073146 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 829:865, ack 14096, win 3568, length 36
+22:07:54.073366 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 14096:14132, ack 865, win 544, length 36
+22:07:54.076504 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 14132:14320, ack 865, win 544, length 188
+22:07:54.077379 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [P.], seq 137:182, ack 300, win 502, options [nop,nop,TS val 2595906682 ecr 1152956727], length 45 21917+ PTR? 79.110.33.45.in-addr.arpa. (43)
+22:07:54.077473 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 14320:14796, ack 865, win 544, length 476
+22:07:54.079252 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 14320, win 3568, length 0
+22:07:54.082567 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 14796:15008, ack 865, win 544, length 212
+22:07:54.082742 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982: Flags [P.], seq 300:396, ack 182, win 64, options [nop,nop,TS val 1152957038 ecr 2595906682], length 96 21917 1/0/0 PTR 45-33-110-79.ip.linodeusercontent.com. (94)
+22:07:54.082776 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47982 > 67.207.67.3.domain: Flags [.], ack 396, win 502, options [nop,nop,TS val 2595906687 ecr 1152957038], length 0
+22:07:54.082890 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 15008:15948, ack 865, win 544, length 940
+22:07:54.085432 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 15008, win 3565, length 0
+22:07:54.105168 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 865:901, ack 15948, win 3570, length 36
+22:07:54.105360 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 15948:15984, ack 901, win 544, length 36
+22:07:54.135128 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 901:937, ack 15984, win 3570, length 36
+22:07:54.135338 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 15984:16020, ack 937, win 544, length 36
+22:07:54.167149 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 937:973, ack 16020, win 3569, length 36
+22:07:54.167365 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 16020:16056, ack 973, win 544, length 36
+22:07:54.180708 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 16056:18516, ack 973, win 544, length 2460
+22:07:54.185148 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 17516, win 3570, length 0
+22:07:54.198149 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 973:1009, ack 18516, win 3566, length 36
+22:07:54.198386 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 18516:18552, ack 1009, win 544, length 36
+22:07:54.229150 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1009:1045, ack 18552, win 3566, length 36
+22:07:54.229357 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 18552:18588, ack 1045, win 544, length 36
+22:07:54.260127 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1045:1081, ack 18588, win 3565, length 36
+22:07:54.260292 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 18588:18624, ack 1081, win 544, length 36
+22:07:54.284488 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 18624:19860, ack 1081, win 544, length 1236
+22:07:54.287308 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 19860, win 3570, length 0
+22:07:54.287308 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1081:1117, ack 19860, win 3570, length 36
+22:07:54.287461 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 19860:19896, ack 1117, win 544, length 36
+22:07:54.322142 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1117:1153, ack 19896, win 3570, length 36
+22:07:54.322355 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 19896:19932, ack 1153, win 544, length 36
+22:07:54.353160 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1153:1189, ack 19932, win 3569, length 36
+22:07:54.353349 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 19932:19968, ack 1189, win 544, length 36
+22:07:54.384289 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1189:1225, ack 19968, win 3569, length 36
+22:07:54.384471 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 19968:20004, ack 1225, win 544, length 36
+22:07:54.388435 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 20004:20192, ack 1225, win 544, length 188
+22:07:54.388622 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 20192:21580, ack 1225, win 544, length 1388
+22:07:54.391142 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 20192, win 3568, length 0
+22:07:54.415132 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1225:1261, ack 21580, win 3570, length 36
+22:07:54.415331 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 21580:21616, ack 1261, win 544, length 36
+22:07:54.447133 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1261:1297, ack 21616, win 3570, length 36
+22:07:54.447361 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 21616:21652, ack 1297, win 544, length 36
+22:07:54.478160 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1297:1333, ack 21652, win 3569, length 36
+22:07:54.478362 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 21652:21688, ack 1333, win 544, length 36
+22:07:54.492470 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 21688:21876, ack 1333, win 544, length 188
+22:07:54.492779 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 21876:23112, ack 1333, win 544, length 1236
+22:07:54.497160 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 21876, win 3569, length 0
+22:07:54.509251 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1333:1369, ack 23112, win 3570, length 36
+22:07:54.509458 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 23112:23148, ack 1369, win 544, length 36
+22:07:54.539619 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1369:1405, ack 23148, win 3570, length 36
+22:07:54.539806 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 23148:23184, ack 1405, win 544, length 36
+22:07:54.572140 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1405:1441, ack 23184, win 3569, length 36
+22:07:54.572332 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 23184:23220, ack 1441, win 544, length 36
+22:07:54.596546 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 23220:24608, ack 1441, win 544, length 1388
+22:07:54.600272 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 24608, win 3570, length 0
+22:07:54.600272 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1441:1477, ack 24608, win 3570, length 36
+22:07:54.600458 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 24608:24644, ack 1477, win 544, length 36
+22:07:54.632589 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1477:1513, ack 24644, win 3570, length 36
+22:07:54.632780 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 24644:24680, ack 1513, win 544, length 36
+22:07:54.664614 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1513:1549, ack 24680, win 3569, length 36
+22:07:54.664833 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 24680:24716, ack 1549, win 544, length 36
+22:07:54.696597 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1549:1585, ack 24716, win 3569, length 36
+22:07:54.696772 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 24716:24752, ack 1585, win 544, length 36
+22:07:54.700452 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 24752:24940, ack 1585, win 544, length 188
+22:07:54.700766 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 24940:26328, ack 1585, win 544, length 1388
+22:07:54.703138 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 24940, win 3568, length 0
+22:07:54.727545 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1585:1621, ack 26328, win 3570, length 36
+22:07:54.727743 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 26328:26364, ack 1621, win 544, length 36
+22:07:54.758725 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1621:1657, ack 26364, win 3570, length 36
+22:07:54.758919 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 26364:26400, ack 1657, win 544, length 36
+22:07:54.791212 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1657:1693, ack 26400, win 3569, length 36
+22:07:54.791412 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 26400:26436, ack 1693, win 544, length 36
+22:07:54.804548 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 26436:27824, ack 1693, win 544, length 1388
+22:07:54.807342 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 27824, win 3570, length 0
+22:07:54.822166 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1693:1729, ack 27824, win 3570, length 36
+22:07:54.822380 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 27824:27860, ack 1729, win 544, length 36
+22:07:54.852477 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1729:1765, ack 27860, win 3570, length 36
+22:07:54.852686 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 27860:27896, ack 1765, win 544, length 36
+22:07:54.883936 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1765:1801, ack 27896, win 3569, length 36
+22:07:54.884099 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 27896:27932, ack 1801, win 544, length 36
+22:07:54.908506 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 27932:28120, ack 1801, win 544, length 188
+22:07:54.908752 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 28120:29204, ack 1801, win 544, length 1084
+22:07:54.912372 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 28120, win 3569, length 0
+22:07:54.912372 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1801:1837, ack 28120, win 3569, length 36
+22:07:54.912564 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 29204:29240, ack 1837, win 544, length 36
+22:07:54.915196 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 29240, win 3564, length 0
+22:07:54.948176 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1837:1873, ack 29240, win 3564, length 36
+22:07:54.948392 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 29240:29276, ack 1873, win 544, length 36
+22:07:54.977286 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1873:1909, ack 29276, win 3564, length 36
+22:07:54.977514 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 29276:29312, ack 1909, win 544, length 36
+22:07:55.008545 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1909:1945, ack 29312, win 3570, length 36
+22:07:55.008756 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 29312:29348, ack 1945, win 544, length 36
+22:07:55.012794 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 29348:31176, ack 1945, win 544, length 1828
+22:07:55.015617 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 30808, win 3570, length 0
+22:07:55.039473 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1945:1981, ack 31176, win 3568, length 36
+22:07:55.039679 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 31176:31212, ack 1981, win 544, length 36
+22:07:55.071179 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1981:2017, ack 31212, win 3568, length 36
+22:07:55.071391 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 31212:31248, ack 2017, win 544, length 36
+22:07:55.103152 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2017:2053, ack 31248, win 3568, length 36
+22:07:55.103337 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 31248:31284, ack 2053, win 544, length 36
+22:07:55.116461 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 31284:31472, ack 2053, win 544, length 188
+22:07:55.116686 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 31472:32556, ack 2053, win 544, length 1084
+22:07:55.119259 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 31472, win 3567, length 0
+22:07:55.134158 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2053:2089, ack 32556, win 3570, length 36
+22:07:55.134369 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 32556:32592, ack 2089, win 544, length 36
+22:07:55.165159 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2089:2125, ack 32592, win 3570, length 36
+22:07:55.165347 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 32592:32628, ack 2125, win 544, length 36
+22:07:55.197153 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2125:2161, ack 32628, win 3569, length 36
+22:07:55.197332 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 32628:32664, ack 2161, win 544, length 36
+22:07:55.220411 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 32664:32852, ack 2161, win 544, length 188
+22:07:55.220615 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 32852:34088, ack 2161, win 544, length 1236
+22:07:55.224165 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 32852, win 3569, length 0
+22:07:55.224287 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2161:2197, ack 32852, win 3569, length 36
+22:07:55.224287 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 34088, win 3570, length 0
+22:07:55.224464 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 34088:34124, ack 2197, win 544, length 36
+22:07:55.227104 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 34124, win 3570, length 0
+22:07:55.259161 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2197:2233, ack 34124, win 3570, length 36
+22:07:55.259369 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 34124:34160, ack 2233, win 544, length 36
+22:07:55.290140 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2233:2269, ack 34160, win 3569, length 36
+22:07:55.290308 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 34160:34196, ack 2269, win 544, length 36
+22:07:55.321148 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2269:2305, ack 34196, win 3569, length 36
+22:07:55.321322 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 34196:34232, ack 2305, win 544, length 36
+22:07:55.324428 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 34232:34420, ack 2305, win 544, length 188
+22:07:55.324655 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 34420:35776, ack 2305, win 544, length 1356
+22:07:55.324785 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 35776:36268, ack 2305, win 544, length 492
+22:07:55.327138 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 34420, win 3568, length 0
+22:07:55.327423 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 36268, win 3570, length 0
+22:07:55.352248 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2305:2341, ack 36268, win 3570, length 36
+22:07:55.352464 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 36268:36304, ack 2341, win 544, length 36
+22:07:55.383138 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2341:2377, ack 36304, win 3570, length 36
+22:07:55.383308 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 36304:36340, ack 2377, win 544, length 36
+22:07:55.414142 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2377:2413, ack 36340, win 3569, length 36
+22:07:55.414328 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 36340:36376, ack 2413, win 544, length 36
+22:07:55.428573 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 36376:38052, ack 2413, win 544, length 1676
+22:07:55.433137 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 37836, win 3570, length 0
+22:07:55.445241 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2413:2449, ack 38052, win 3569, length 36
+22:07:55.445447 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 38052:38088, ack 2449, win 544, length 36
+22:07:55.476161 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2449:2485, ack 38088, win 3569, length 36
+22:07:55.476367 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 38088:38124, ack 2485, win 544, length 36
+22:07:55.507158 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2485:2521, ack 38124, win 3569, length 36
+22:07:55.507374 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 38124:38160, ack 2521, win 544, length 36
+22:07:55.532495 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 38160:38348, ack 2521, win 544, length 188
+22:07:55.532708 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 38348:39432, ack 2521, win 544, length 1084
+22:07:55.536144 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 38348, win 3568, length 0
+22:07:55.536256 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2521:2557, ack 38348, win 3568, length 36
+22:07:55.536256 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 39432, win 3570, length 0
+22:07:55.536417 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 39432:39468, ack 2557, win 544, length 36
+22:07:55.539165 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 39468, win 3570, length 0
+22:07:55.570173 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2557:2593, ack 39468, win 3570, length 36
+22:07:55.570345 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 39468:39504, ack 2593, win 544, length 36
+22:07:55.601167 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2593:2629, ack 39504, win 3569, length 36
+22:07:55.601351 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 39504:39540, ack 2629, win 544, length 36
+22:07:55.629971 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2629:2665, ack 39540, win 3569, length 36
+22:07:55.630141 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 39540:39576, ack 2665, win 544, length 36
+22:07:55.636623 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 39576:41540, ack 2665, win 544, length 1964
+22:07:55.641213 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 41036, win 3570, length 0
+22:07:55.662159 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2665:2701, ack 41540, win 3568, length 36
+22:07:55.662390 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 41540:41576, ack 2701, win 544, length 36
+22:07:55.693195 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2701:2737, ack 41576, win 3568, length 36
+22:07:55.693430 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 41576:41612, ack 2737, win 544, length 36
+22:07:55.723616 IP 199-68-126-110.beanfield.net.58068 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2737:2773, ack 41612, win 3567, length 36
+22:07:55.723857 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 199-68-126-110.beanfield.net.58068: Flags [P.], seq 41612:41648, ack 2773, win 544, length 36
+^C
+252 packets captured
+257 packets received by filter
+0 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
