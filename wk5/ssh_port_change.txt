@@ -1,0 +1,2 @@
+sudo service ssh restart
+ssh -p 2222 root@159.203.38.32
