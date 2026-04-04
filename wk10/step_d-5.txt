@@ -1,0 +1,8 @@
+When I opened directory_traversal_part1.php?q=%2e%2e%2f, the browser displayed the contents of the parent directory. I could see ., .., and html. This shows that the page accepts encoded input and still processes it as a directory path.
+
+
+Sensitive information exposed by this page includes:
+- internal directory names on the server
+- part of the server folder structure outside the web root
+- evidence that directory traversal is possible
+- evidence that encoded traversal input is also accepted

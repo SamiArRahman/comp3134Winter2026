@@ -1,0 +1,6 @@
+When I opened directory_traversal_part1.php?q=../../, the browser displayed a list of folders from a higher-level directory instead of just the web root directory. I could see multiple internal folders such as backups, cache, lib, log, mail, tmp, and www.
+Sensitive information exposed by this page includes:
+- internal directory names on the server
+- the structure of folders outside the web root
+- evidence that directory traversal is possible
+- information about how the server is organized

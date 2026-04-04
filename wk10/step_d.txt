@@ -1,0 +1,9 @@
+When I opened directory_traversal_part1.php?q=hello, the browser displayed PHP warning messages instead of a normal page result. 
+The page attempted to scan a folder named "hello", but that folder does not exist, so it failed.
+
+Sensitive information exposed by the page includes:
+- the internal server path: /var/www/html/directory_traversal_part1.php
+- the PHP file name
+- the exact line number where the error happened (line 7)
+- evidence that PHP error display is enabled
+- evidence that user input is passed directly to scandir()

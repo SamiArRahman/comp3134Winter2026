@@ -1,0 +1,7 @@
+To mitigate the first problem, I used basename() on the q parameter so the user cannot use directory traversal values such as ../ or ../../ to move before the html directory. I also reject . and .. so the user cannot move to the current or parent directory.
+
+To mitigate the second problem, I used file_exists() before calling scandir() so the script does not try to read a folder that does not exist. I also used is_dir() to make sure the path is actually a directory.
+
+For the bonus improvement, I checked whether the parameter contains a dot and reject it. This helps prevent the user from passing a filename instead of a folder.
+
+I also disabled displaying PHP errors in the browser so internal server information is not exposed to the user.
