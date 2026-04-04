@@ -1,0 +1,5 @@
+1) i wrote meow and they gave me a meow definition
+2) i wrote zabodibo after /browse/ and it redirected me to another word. in the url it says cambodian?misspelling=zabodibo&noredirect=true
+3) i did that and now the website says that i am now blocked. i am unable to access dictionary.com and it says that the website is using a security
+service to protect itself. 
+4) I could not find a visible "term=" section on the Dictionary.com word page. 

@@ -1,0 +1,3 @@
+strip_tags() removes HTML and PHP tags from the user input before displaying it. This means some parts of the original input are deleted.
+
+htmlspecialchars() does not remove the input. Instead, it converts special characters such as <, >, ", and & into HTML entities so the browser displays them as plain text instead of interpreting them as HTML or script.
