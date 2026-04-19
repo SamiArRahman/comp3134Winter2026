@@ -1,0 +1,27 @@
+getusers_1.php observations
+
+1) Input: Ben
+Observation:
+No rows were returned. This is expected because the query requires both firstname = 'Ben' and active = 1, and the Ben row in the table has active = 0.
+
+2) Input: Ben'--
+Observation:
+The Ben row can be returned even though active = 0. This is expected for a vulnerable page because the single quote closes the original string and the comment characters cause the rest of the SQL statement to be ignored, which removes the active = 1 check.
+
+3) Input: Ben' or 1=1
+Observation:
+The page produces a SQL error instead of returning rows. This is expected with this exact payload because it changes the query in a way that leaves an unmatched quote at the end of the SQL statement, so MySQL treats it as invalid syntax.
+
+getusers_2.php observations
+
+1) Input: Ben
+Observation:
+No rows were returned. This is expected because prepared statements do not change the intended logic of the query, and the Ben row is still inactive.
+
+2) Input: Ben'--
+Observation:
+No rows were returned. This is expected because the payload is treated only as a string value for firstname and cannot comment out the active = 1 condition.
+
+3) Input: Ben' or 1=1
+Observation:
+No rows were returned. This is expected because prepared statements treat the entire input as literal text, so the SQL logic is not modified and the injection attempt fails.
