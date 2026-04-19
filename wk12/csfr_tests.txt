@@ -1,0 +1,4 @@
+1. Using csfr_form.php resulted in Success because the session confirmation value and posted confirmation value matched.
+2. Using csfr.html resulted in Failure because the forged HTML form did not send the session confirmation token.
+3. The original csfr.php flow was vulnerable to CSRF because a separate HTML page could submit valid credentials without any token check.
+4. Adding a random confirmation value in the session and checking it in csfr_action.php helps block forged requests that do not have the correct token.

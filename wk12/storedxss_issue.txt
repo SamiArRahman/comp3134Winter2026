@@ -1,0 +1,1 @@
+The page has a stored XSS vulnerability. JavaScript is stored in storedxss.txt and then output directly by storedxss.php without sanitization or escaping. This allows arbitrary script execution in the user's browser, which could be used for redirects, cookie theft, session hijacking, or page defacement.

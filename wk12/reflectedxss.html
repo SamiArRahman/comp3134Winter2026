@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflected XSS</title>
+</head>
+<body>
+    <h1>Reflected XSS</h1>
+    
+    <form>
+        <input type="text" name="textfield">
+        <input type="submit">
+    </form>
+
+    <div id="output"></div>
+
+    <script>
+        const form = document.querySelector("form");
+        const input = document.querySelector('input[name="textfield"]');
+        const output = document.getElementById("output");
+
+        form.addEventListener("submit", function(event){
+            event.preventDefault();
+            output.innerHTML = input.value;
+        });
+    </script>
+</body>
+</html>
